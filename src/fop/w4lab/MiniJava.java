@@ -118,7 +118,7 @@ public class MiniJava {
     do {
       String s = readString(text);
       if (s == null)
-        throw new IllegalStateException("Es ist keine Eingabe (mehr) verfügbar.");
+        throw new IllegalStateException("No )further) input availabele.");
       try {
         x = Double.parseDouble(s.trim());
       } catch (@SuppressWarnings("unused") NumberFormatException e) {
